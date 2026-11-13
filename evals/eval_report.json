@@ -1,0 +1,112 @@
+{
+  "checks": [
+    {
+      "detail": 480,
+      "name": "sample_count_480",
+      "ok": true
+    },
+    {
+      "detail": 1.0,
+      "name": "parser_mentions_exact",
+      "ok": true
+    },
+    {
+      "detail": 1.0,
+      "name": "parser_citations_exact",
+      "ok": true
+    },
+    {
+      "detail": {
+        "diff": 0.104,
+        "flagged": true,
+        "hi": 0.1571,
+        "lo": 0.0392
+      },
+      "name": "planted_change_flagged",
+      "ok": true
+    },
+    {
+      "detail": 0.104,
+      "name": "planted_change_positive",
+      "ok": true
+    },
+    {
+      "detail": {
+        "best_lag": 2,
+        "correlations": {
+          "0": 0.7386,
+          "1": 0.8829,
+          "2": 0.9992,
+          "3": 0.7142
+        }
+      },
+      "name": "lead_lag_best_is_2",
+      "ok": true
+    },
+    {
+      "detail": 0.9992,
+      "name": "lead_lag_corr_strong",
+      "ok": true
+    },
+    {
+      "detail": {
+        "hi": 0.3147,
+        "lo": 0.2766,
+        "point": 0.2928
+      },
+      "name": "ci_brackets_point",
+      "ok": true
+    },
+    {
+      "detail": {
+        "w1": 0.2025,
+        "w8": 0.3262
+      },
+      "name": "target_share_rises",
+      "ok": true
+    },
+    {
+      "detail": {
+        "brand": 0.2342,
+        "category": 0.2908,
+        "comparison": 0.3144
+      },
+      "name": "intent_classes_present",
+      "ok": true
+    },
+    {
+      "detail": 1744,
+      "name": "signups_total_positive",
+      "ok": true
+    },
+    {
+      "detail": "last_touch_only",
+      "name": "attribution_last_touch_only",
+      "ok": true
+    }
+  ],
+  "passed": 12,
+  "report_headline": {
+    "lead_lag": {
+      "best_lag": 2,
+      "correlations": {
+        "0": 0.7386,
+        "1": 0.8829,
+        "2": 0.9992,
+        "3": 0.7142
+      }
+    },
+    "planted_change": {
+      "diff": 0.104,
+      "flagged": true,
+      "hi": 0.1571,
+      "lo": 0.0392
+    },
+    "target_share_ci": {
+      "hi": 0.3147,
+      "lo": 0.2766,
+      "point": 0.2928
+    }
+  },
+  "total": 12
+}
